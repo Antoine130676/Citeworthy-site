@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Citeworthy — Get cited by AI, not just ranked by Google</title>
+<meta name="description" content="Citeworthy runs a free AI Citation Audit showing whether ChatGPT, Perplexity, and Google AI Overviews mention your business — then fixes the gaps so you get cited, not just ranked.">
+<link rel="canonical" href="https://citeworthyinc.com/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "Citeworthy",
+  "url": "https://citeworthyinc.com",
+  "description": "GEO (Generative Engine Optimization) consulting that gets small businesses cited by AI answer engines like ChatGPT, Perplexity, and Google AI Overviews.",
+  "areaServed": ["US", "GB"],
+  "priceRange": "$$"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {"@type": "Question","name": "What is GEO (Generative Engine Optimization)?","acceptedAnswer": {"@type": "Answer", "text": "GEO is the practice of structuring your business's online content so AI answer engines like ChatGPT, Perplexity, and Google AI Overviews cite you directly in their responses, rather than just ranking your page in a list of blue links."}},
+    {"@type": "Question","name": "How is GEO different from SEO?","acceptedAnswer": {"@type": "Answer", "text": "SEO optimizes for ranking in a list a human scrolls through. GEO optimizes for being the fact an AI model pulls into its own generated answer, often the only source a user ever sees."}},
+    {"@type": "Question","name": "How does the free AI Citation Audit work?","acceptedAnswer": {"@type": "Answer", "text": "You submit your business details, and the audit runs real buyer-style prompts through AI answer engines to check whether and how your business gets cited, then delivers a plain-English report showing the gaps and fixes."}},
+    {"@type": "Question","name": "Is the audit really free?","acceptedAnswer": {"@type": "Answer", "text": "Yes. The audit and report are free with no payment required. Paid consulting is only offered afterward, if you want help implementing the fixes."}}
+  ]
+}
+</script>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <a href="index.html" class="logo">Cite<span style="color:var(--gold)">worthy</span></a>
+    <nav>
+      <a href="geo-vs-seo.html">GEO vs SEO</a>
+      <a href="geo-checklist.html">GEO Checklist</a>
+      <a href="index.html#faq">FAQ</a>
+      <details class="lang-switch">
+        <summary>EN <span style="opacity:0.6">▾</span></summary>
+        <div class="lang-menu">
+          <a href="index.html" class="active">English</a>
+          <a href="bg/index.html">Български</a>
+          <a href="tr/index.html">Türkçe</a>
+          <a href="no/index.html">Norsk</a>
+          <a href="da/index.html">Dansk</a>
+          <a href="fi/index.html">Suomi</a>
+        </div>
+      </details>
+      <a href="index.html#audit" class="btn btn-gold">Get your free audit</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <div>
+      <div class="eyebrow">AI Citation Audit — free</div>
+      <h1><span class="lede">Ranking #1 on Google <span class="standout">doesn't matter.</span></span> <em>What matters is whether your business shows up in AI results!</em></h1>
+      <p class="lead">Google used to be the front door. Now ChatGPT, Perplexity, and Google AI are — and if they don't cite you, no one ever finds you.</p>
+      <div class="hero-ctas">
+        <a href="#audit" class="btn btn-gold">Run my free citation audit</a>
+        <a href="#how-it-works" class="btn-ghost">See how it works</a>
+      </div>
+    </div>
+    <div class="panel">
+      <div class="panel-head">
+        <div class="panel-dot"></div><div class="panel-dot"></div><div class="panel-dot"></div>
+        <span class="panel-label">AI ANSWER ENGINE — LIVE QUERY</span>
+      </div>
+      <div class="engine-badges">
+        <div class="engine-badge">ChatGPT <span class="check">✓</span></div>
+        <div class="engine-badge">Perplexity <span class="check">✓</span></div>
+        <div class="engine-badge">Google AI <span class="check">✓</span></div>
+      </div>
+      <div class="panel-q">&gt; "best plumber near Manchester for emergency callouts"</div>
+      <div class="panel-a" id="typingArea"></div>
+    </div>
+  </div>
+</section>
+
+<section class="explainer">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="eyebrow">First, the shift</div>
+      <h2>The library just replaced the librarian</h2>
+      <p>For twenty years, search engines handed you a shelf of books and let you pick one. AI answer engines read the shelf for you and just tell you the answer — citing only a few sources along the way.</p>
+    </div>
+
+    <!-- illustration: shelf of ranked results collapsing into a single cited answer -->
+    <svg class="illo-inline" viewBox="0 0 900 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Diagram showing ten ranked search results narrowing down to one AI-cited answer" style="max-width:820px; margin:0 auto 48px; display:block;">
+      <text x="70" y="26" font-family="Inter, sans-serif" font-size="11" letter-spacing="1" fill="#94A3B8">TEN BLUE LINKS</text>
+      <g fill="none" stroke="#CBD5E1" stroke-width="1.4">
+        <line x1="30" y1="46" x2="230" y2="46"/><line x1="30" y1="64" x2="230" y2="64"/>
+        <line x1="30" y1="82" x2="230" y2="82"/><line x1="30" y1="100" x2="230" y2="100"/>
+        <line x1="30" y1="118" x2="230" y2="118"/><line x1="30" y1="136" x2="230" y2="136"/>
+        <line x1="30" y1="154" x2="230" y2="154"/><line x1="30" y1="172" x2="230" y2="172"/>
+        <line x1="30" y1="190" x2="230" y2="190"/>
+      </g>
+      <g font-family="Inter, sans-serif" font-size="10" fill="#94A3B8">
+        <text x="10" y="49" fill="#94A3B8">1</text><text x="10" y="67" fill="#94A3B8">2</text>
+        <text x="10" y="85" fill="#94A3B8">3</text><text x="10" y="103" fill="#94A3B8">4</text>
+        <text x="10" y="121" fill="#94A3B8">5</text><text x="10" y="139" fill="#94A3B8">6</text>
+        <text x="10" y="157" fill="#94A3B8">7</text><text x="10" y="175" fill="#94A3B8">8</text>
+        <text x="10" y="193" fill="#94A3B8">9</text>
+      </g>
+
+      <g stroke="#93C5FD" stroke-width="1" stroke-dasharray="2 4">
+        <path d="M235 46 C 340 46, 380 108, 430 108" fill="none"/>
+        <path d="M235 82 C 340 82, 380 108, 430 108" fill="none"/>
+        <path d="M235 118 C 340 118, 380 108, 430 108" fill="none" opacity="0.5"/>
+        <path d="M235 154 C 340 154, 380 108, 430 108" fill="none" opacity="0.3"/>
+        <path d="M235 190 C 340 190, 380 108, 430 108" fill="none" opacity="0.2"/>
+      </g>
+
+      <circle cx="450" cy="108" r="26" fill="#0D1226"/>
+      <text x="450" y="113" font-family="Inter, sans-serif" font-size="11" fill="#FFFFFF" text-anchor="middle">AI</text>
+
+      <path d="M476 108 C 520 108, 520 108, 555 108" stroke="#0D9488" stroke-width="1.6" fill="none" marker-end="url(#arrow)"/>
+      <defs>
+        <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+          <path d="M0,0 L6,3 L0,6 z" fill="#0D9488"/>
+        </marker>
+      </defs>
+
+      <rect x="565" y="70" width="310" height="76" rx="6" fill="#FFFFFF" stroke="#E2E8F0"/>
+      <text x="583" y="93" font-family="Inter, sans-serif" font-size="12" fill="#0F172A">"Try Meridian Plumbing — 24/7</text>
+      <text x="583" y="110" font-family="Inter, sans-serif" font-size="12" fill="#0F172A">emergency callouts, avg 40 min</text>
+      <text x="583" y="127" font-family="Inter, sans-serif" font-size="12" fill="#0F172A">response time."</text>
+      <circle cx="857" cy="79" r="9" fill="none" stroke="#0D9488"/>
+      <text x="857" y="83" font-family="Inter, sans-serif" font-size="9" fill="#0D9488" text-anchor="middle">1</text>
+    </svg>
+
+    <div class="explain-grid">
+      <div class="explain-card">
+        <div class="tag">Old model — SEO</div>
+        <h3>You were the shelf</h3>
+        <p>Rank high, get placed on the shelf, and hope the customer picks your book off it. Ten blue links, one click, mostly luck of positioning.</p>
+      </div>
+      <div class="explain-card">
+        <div class="tag">New model — GEO</div>
+        <h3>You're a citation, or you're nothing</h3>
+        <p>The AI reads the shelf privately and hands the customer one paragraph. If your business isn't quoted in that paragraph, ranking #1 changes nothing — you were never seen.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="compare">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="eyebrow">SEO vs. GEO</div>
+      <h2>Same internet, different game</h2>
+      <p><a href="geo-vs-seo.html" style="text-decoration:underline; color:var(--ink);">Read the full breakdown →</a></p>
+    </div>
+    <table>
+      <tr><th></th><th>SEO</th><th>GEO</th></tr>
+      <tr><td>Optimizes for</td><td>Ranking position</td><td>Being quoted directly</td></tr>
+      <tr><td>Where you win</td><td>Search results page</td><td>Inside the AI's answer</td></tr>
+      <tr><td>Structured, quotable content</td><td class="no">Optional</td><td class="yes">Required</td></tr>
+      <tr><td>Direct-answer formatting</td><td class="no">Rare</td><td class="yes">Essential</td></tr>
+      <tr><td>Schema / entity clarity</td><td class="no">Nice to have</td><td class="yes">Load-bearing</td></tr>
+      <tr><td>Wins when user</td><td>Clicks a link</td><td>Never clicks at all</td></tr>
+    </table>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="stats-row">
+      <div class="stat">
+        <div class="num">60%<span class="cite" tabindex="0">i<span class="tooltip">Share of searches now estimated to end without a click, as AI-generated answers satisfy the query directly.</span></span></div>
+        <div class="label">of searches now end without a single click</div>
+      </div>
+      <div class="stat">
+        <div class="num">3<span class="cite" tabindex="0">i<span class="tooltip">AI Overviews and chat answer engines typically cite a small handful of sources per response — being outside that handful means zero visibility.</span></span></div>
+        <div class="label">sources is roughly all an AI answer cites</div>
+      </div>
+      <div class="stat">
+        <div class="num">0<span class="cite" tabindex="0">i<span class="tooltip">Businesses with no structured, citable content are the ones most likely to be skipped entirely by AI answer engines, regardless of Google ranking.</span></span></div>
+        <div class="label">is how many of those 3 you get without GEO</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="services" id="services">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="eyebrow">What we do</div>
+      <h2>Three ways we get you cited</h2>
+    </div>
+    <div class="service-grid">
+      <div class="service-card">
+        <div class="cite">1</div>
+        <h3>Citation Audit</h3>
+        <p>We run real buyer prompts through ChatGPT, Perplexity, and AI Overviews to see exactly whether — and how — your business gets mentioned.</p>
+      </div>
+      <div class="service-card">
+        <div class="cite">2</div>
+        <h3>Content Rebuild</h3>
+        <p>We restructure your site's key pages into direct-answer, schema-backed content that AI models can lift and quote with confidence.</p>
+      </div>
+      <div class="service-card">
+        <div class="cite">3</div>
+        <h3>Ongoing Monitoring</h3>
+        <p>Models and competitors shift monthly. We re-test your citations on a schedule and adjust before you quietly drop out of the answers.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="how-it-works">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="eyebrow">Process</div>
+      <h2>From invisible to cited</h2>
+    </div>
+    <div class="process-list">
+      <div class="process-item">
+        <div class="step-mark">1</div>
+        <div><h3>Tell us about your business</h3><p>Two-minute form — no call required to get started.</p></div>
+      </div>
+      <div class="process-item">
+        <div class="step-mark">2</div>
+        <div><h3>We run the audit</h3><p>Real buyer-style prompts, tested live across major AI answer engines.</p></div>
+      </div>
+      <div class="process-item">
+        <div class="step-mark">3</div>
+        <div><h3>You get a plain-English report</h3><p>Exactly where you're missing, and why, with specific fixes — not jargon.</p></div>
+      </div>
+      <div class="process-item">
+        <div class="step-mark">4</div>
+        <div><h3>Optional: we fix it together</h3><p>Book a free 15-minute call if you want help implementing the fixes.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="faq">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="eyebrow">FAQ</div>
+      <h2>Straight answers</h2>
+      <p>Want the full picture? See our <a href="geo-checklist.html" style="text-decoration:underline; color:var(--ink);">GEO checklist</a>.</p>
+    </div>
+    <div class="faq">
+      <details class="faq-item">
+        <summary>What is GEO (Generative Engine Optimization)?</summary>
+        <p>GEO is the practice of structuring your business's online content so AI answer engines like ChatGPT, Perplexity, and Google AI Overviews cite you directly in their responses, rather than just ranking your page in a list of blue links.</p>
+      </details>
+      <details class="faq-item">
+        <summary>How is GEO different from SEO?</summary>
+        <p>SEO optimizes for ranking in a list a human scrolls through. GEO optimizes for being the fact an AI model pulls into its own generated answer — often the only source a user ever sees.</p>
+      </details>
+      <details class="faq-item">
+        <summary>How does the free AI Citation Audit work?</summary>
+        <p>You submit your business details, and the audit runs real buyer-style prompts through AI answer engines to check whether and how your business gets cited, then delivers a plain-English report showing the gaps and fixes.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Is the audit really free?</summary>
+        <p>Yes. The audit and report are free with no payment required. Paid consulting is only offered afterward, if you want help implementing the fixes.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<section class="cta" id="audit">
+  <div class="wrap">
+    <h2>Find out if AI even knows you exist</h2>
+    <p class="lead">Free citation audit. Plain-English report. No card required.</p>
+    <form onsubmit="event.preventDefault(); const langs=[...this.querySelectorAll('input[name=audit_lang]:checked')]; if(langs.length===0){alert('Please select at least one language to test.'); return;} alert('This is a design preview — connect this form to your n8n webhook to go live.');">
+      <input type="text" placeholder="Business name" required>
+      <input type="url" placeholder="Website URL" required>
+      <input type="email" placeholder="Email for your report" required>
+      <div class="field-label">Which language(s) should we test your citations in?</div>
+      <div class="lang-options">
+        <label class="lang-option"><input type="checkbox" name="audit_lang" value="en" checked> English</label>
+        <label class="lang-option"><input type="checkbox" name="audit_lang" value="bg"> Български</label>
+        <label class="lang-option"><input type="checkbox" name="audit_lang" value="tr"> Türkçe</label>
+        <label class="lang-option"><input type="checkbox" name="audit_lang" value="no"> Norsk</label>
+        <label class="lang-option"><input type="checkbox" name="audit_lang" value="da"> Dansk</label>
+        <label class="lang-option"><input type="checkbox" name="audit_lang" value="fi"> Suomi</label>
+      </div>
+      <div class="consent-row">
+        <label class="consent-item">
+          <input type="checkbox" required>
+          <span>I consent to Citeworthy running this audit and emailing me the report. See our <a href="privacy-policy.html" style="text-decoration:underline; color:#c4c7d4;">Privacy Policy</a>.</span>
+        </label>
+        <label class="consent-item">
+          <input type="checkbox">
+          <span>I'm happy for my anonymized results to be used in Citeworthy's GEO research (optional).</span>
+        </label>
+      </div>
+      <button type="submit" class="btn btn-gold">Run my free citation audit</button>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="logo">Cite<span style="color:var(--gold)">worthy</span></div>
+    <div>GEO consulting for small businesses that would rather be quoted than buried. © 2026 Citeworthy.</div>
+    <div class="foot-links">
+      <a href="geo-vs-seo.html">GEO vs SEO</a>
+      <a href="geo-checklist.html">GEO Checklist</a>
+      <a href="privacy-policy.html">Privacy Policy</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+  const answer = 'Try Meridian Plumbing — 24/7 emergency callouts across Greater Manchester, average response time 40 minutes, licensed and insured.';
+  const el = document.getElementById('typingArea');
+  let i = 0;
+  function type(){
+    if(i <= answer.length){
+      el.innerHTML = answer.slice(0,i) + '<span class="cursor"></span>';
+      i++;
+      setTimeout(type, 22);
+    } else {
+      el.innerHTML = answer + ' <span class="citation-out">① meridianplumbing.co.uk</span>';
+    }
+  }
+  type();
+</script>
+
+</body>
+</html>
