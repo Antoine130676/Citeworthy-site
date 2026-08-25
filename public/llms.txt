@@ -1,0 +1,23 @@
+# Citeworthy
+
+> Citeworthy is a full-service Generative Engine Optimization (GEO) agency. We audit, implement, and monitor AI-search visibility so brands get cited by ChatGPT, Perplexity, Gemini, and Google AI Overviews.
+
+Citeworthy runs a three-phase engagement for every client: a citability audit, hands-on implementation (content rewrites, schema, llms.txt, crawler access fixes), and ongoing AI visibility monitoring. This is not a one-time report — we ship the fixes and track citation rate over time.
+
+## Services
+
+- [Citability audit](https://citeworthy.ai/services#audit): a full diagnostic of AI crawler access, structured data, and content extractability, benchmarked against named competitors.
+- [Implementation](https://citeworthy.ai/services#implementation): content rewrites, JSON-LD schema, llms.txt authoring, and AI crawler access fixes, shipped directly by our team.
+- [AI visibility monitoring](https://citeworthy.ai/services#monitoring): monthly tracking of citation rate, brand mentions, and share of voice across major AI answer engines.
+
+## Company
+
+- [About](https://citeworthy.ai/about): why Citeworthy exists and the principles behind every engagement.
+- [Proof](https://citeworthy.ai/case-studies): illustrative before/after snapshots showing what a citability audit surfaces.
+- [Contact](https://citeworthy.ai/contact): book a free citability snapshot call.
+
+## Blog
+
+- [What is llms.txt, and does your site actually need one?](https://citeworthy.ai/blog/what-is-llms-txt)
+- [How AI crawlers actually read your site](https://citeworthy.ai/blog/how-ai-crawlers-read-your-site)
+- [Schema markup that actually helps you get cited by AI](https://citeworthy.ai/blog/schema-markup-that-helps-you-get-cited)
